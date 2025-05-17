@@ -92,6 +92,11 @@ Replace the placeholder strings with your actual keys.
 ---
 
 ## 🏃 Running the Prediction
+You can update your README section to include the limitation on shareholder data like this:
+
+---
+
+## 🏃 Running the Prediction
 
 ```bash
 python src/main.py
@@ -103,7 +108,7 @@ You’ll be prompted:
 Enter stock symbol (e.g. TATAMOTORS): TITAN
 ```
 
-The result is a structured JSON, like:
+The result will be a structured JSON, such as:
 
 ```json
 {
@@ -117,6 +122,15 @@ The result is a structured JSON, like:
   "caveats": "Quarterly Gross Profit has shown a decline, which may impact short-term performance"
 }
 ```
+
+> **Note:** Shareholder data is currently available **only for the following stocks**:
+>
+> * `TITAN`
+> * `QUICKHEAL`
+
+This means that predictions for other stocks will **exclude** shareholder-based insights until more data is added.
+
+
 
 ---
 
