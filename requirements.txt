@@ -1,0 +1,7 @@
+openai>=1.0.0
+aiohttp
+pandas
+yfinance
+newspaper3k
+serpapi
+lxml_html_clean==0.4.2
